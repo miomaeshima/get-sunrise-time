@@ -16,7 +16,7 @@ const success = async (pos) => {
     
 
   const res = await fetch(
-    "https://api.sunrise-sunset.org/json?lat=35.6663515&lng=139.6799199+long+&date=3021-01-30"
+    "https://api.sunrise-sunset.org/json?lat=35.6663515&lng=139.6799199+long+&date=2021-04-30"
   );
   let data = await res.json();
   let sunrise = data.results.sunrise;
