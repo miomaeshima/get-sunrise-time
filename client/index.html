@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+
     <title>Get Sunrise Time!</title>
 </head>
 <body>
-    <h1 id="location">This location is</h1>
+    
+    <div id="padding"> </div>
+    <div id="container">
+    <h2 id="place">現在地の認識を許可してくれたら、ここの場所を調べるよ！</h2>
     <h2 id="lat"></h2>
     <h2 id="long"></h2>
-    <h1>On April 30, 2021</h1>
+    <h2 id="chooseDate"></h2>
+    <form><input type="date" id="dateInput"/></form>
     <h2 id="sunriseTime"></h2>
+    </div>
+    
     <script src="./app.js"></script>
+    
 </body>
 </html>
